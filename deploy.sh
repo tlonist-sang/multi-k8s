@@ -1,6 +1,6 @@
 docker build -t tlonist/multi-client:latest -t tlonist/multi-client:$SHA -f ./client/Dockerfile ./client
 docker build -t tlonist/multi-server:latest -t tlonist/multi-server:$SHA -f ./server/Dockerfile ./server
-docker build -t tlonist/multi-worker:latest -t tlonist/mulit-worker:$SHA -f ./worker/Dockerfile ./worker
+docker build -t tlonist/multi-worker:latest -t tlonist/multi-worker:$SHA -f ./worker/Dockerfile ./worker
 
 docker push tlonist/multi-client:latest
 docker push tlonist/multi-server:latest
